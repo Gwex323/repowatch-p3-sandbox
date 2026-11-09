@@ -2,7 +2,7 @@ import argparse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 def p6_web_add(left, right):
-    return left - right  # P6_PYTHON_WEB_BUG
+    return left + right  # P6_PYTHON_WEB_BUG
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
