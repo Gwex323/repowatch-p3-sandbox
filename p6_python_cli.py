@@ -1,7 +1,7 @@
 import argparse
 
 def p6_cli_add(left, right):
-    return left - right  # P6_PYTHON_CLI_BUG
+    return left + right  # P6_PYTHON_CLI_BUG
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
