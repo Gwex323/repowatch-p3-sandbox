@@ -1,0 +1,10 @@
+{
+  "name": "p6-typescript-web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node build.mjs && node --test tests/test_web.mjs",
+    "typecheck": "node /opt/repowatch/typescript/lib/tsc.js --noEmit",
+    "build": "node build.mjs"
+  }
+}
